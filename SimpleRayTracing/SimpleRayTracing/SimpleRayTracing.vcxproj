@@ -104,10 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>oidn/include/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>oidn/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies); OpenImageDenoise.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -118,16 +121,98 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>oidn/include/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>oidn/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies); OpenImageDenoise.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Builder\World.cpp" />
+    <ClCompile Include="Light\AmbientLight.cpp" />
+    <ClCompile Include="Light\AreaLight.cpp" />
+    <ClCompile Include="Material\DisneyBRDF.cpp" />
+    <ClCompile Include="Material\Glossy.cpp" />
+    <ClCompile Include="Light\PointLight.cpp" />
+    <ClCompile Include="Material\Specular.cpp" />
+    <ClCompile Include="Material\Disney.cpp" />
+    <ClCompile Include="Material\Emissive.cpp" />
+    <ClCompile Include="Material\Matte.cpp" />
+    <ClCompile Include="Math\Vec2.cpp" />
+    <ClCompile Include="Object\Grid.cpp" />
+    <ClCompile Include="Object\Plane.cpp" />
+    <ClCompile Include="Object\Rectangle.cpp" />
+    <ClCompile Include="Object\Smoothtriangle.cpp" />
+    <ClCompile Include="Utils\Camera.cpp" />
+    <ClCompile Include="Math\Matrix4.cpp" />
+    <ClCompile Include="Math\Ray.cpp" />
+    <ClCompile Include="Math\Transform.cpp" />
+    <ClCompile Include="Math\Vec3.cpp" />
+    <ClCompile Include="Object\Box.cpp" />
+    <ClCompile Include="Object\Composite.cpp" />
+    <ClCompile Include="Object\Instance.cpp" />
+    <ClCompile Include="Object\Object.cpp" />
+    <ClCompile Include="Object\Sphere.cpp" />
+    <ClCompile Include="Object\Triangle.cpp" />
+    <ClCompile Include="pnglib\pngwriter.cpp" />
     <ClCompile Include="SimpleRayTracing.cpp" />
+    <ClCompile Include="ObjectHandler\Mesh.cpp" />
+    <ClCompile Include="ObjectHandler\OBJHandler.cpp" />
+    <ClCompile Include="Utils\EnvironmentTracer.cpp" />
+    <ClCompile Include="Utils\RayTracer.cpp" />
+    <ClCompile Include="Utils\Sampler.cpp" />
+    <ClCompile Include="Utils\WorldSettings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Builder\World.h" />
+    <ClInclude Include="Light\AmbientLight.h" />
+    <ClInclude Include="Light\AreaLight.h" />
+    <ClInclude Include="Material\BRDF.h" />
+    <ClInclude Include="Material\DisneyBRDF.h" />
+    <ClInclude Include="Material\Glossy.h" />
+    <ClInclude Include="Material\Lambertian.h" />
+    <ClInclude Include="Light\Light.h" />
+    <ClInclude Include="Light\PointLight.h" />
+    <ClInclude Include="Material\Specular.h" />
+    <ClInclude Include="Material\Disney.h" />
+    <ClInclude Include="Material\Emissive.h" />
+    <ClInclude Include="Material\Material.h" />
+    <ClInclude Include="Material\Matte.h" />
+    <ClInclude Include="Math\Vec2.h" />
+    <ClInclude Include="Object\Grid.h" />
+    <ClInclude Include="Object\Plane.h" />
+    <ClInclude Include="Object\Rectangle.h" />
+    <ClInclude Include="Object\Smoothtriangle.h" />
+    <ClInclude Include="OpenImageDenoise\config.h" />
+    <ClInclude Include="OpenImageDenoise\oidn.h" />
+    <ClInclude Include="OpenImageDenoise\oidn.hpp" />
+    <ClInclude Include="Utils\Camera.h" />
+    <ClInclude Include="Math\Constants.h" />
+    <ClInclude Include="Utils\EnvironmentTracer.h" />
+    <ClInclude Include="Utils\Hit.h" />
+    <ClInclude Include="Math\MathUtils.h" />
+    <ClInclude Include="Math\Matrix4.h" />
+    <ClInclude Include="Math\Ray.h" />
+    <ClInclude Include="Math\Transform.h" />
+    <ClInclude Include="Math\Vec3.h" />
+    <ClInclude Include="Object\Box.h" />
+    <ClInclude Include="Object\Composite.h" />
+    <ClInclude Include="Object\Instance.h" />
+    <ClInclude Include="Object\Object.h" />
+    <ClInclude Include="Object\sphere.h" />
+    <ClInclude Include="Object\Triangle.h" />
+    <ClInclude Include="pnglib\pngwriter.h" />
+    <ClInclude Include="ObjectHandler\Mesh.h" />
+    <ClInclude Include="ObjectHandler\OBJHandler.h" />
+    <ClInclude Include="Utils\RayTracer.h" />
+    <ClInclude Include="Utils\Sampler.h" />
+    <ClInclude Include="ObjectHandler\Vertex.h" />
+    <ClInclude Include="Utils\WorldSettings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

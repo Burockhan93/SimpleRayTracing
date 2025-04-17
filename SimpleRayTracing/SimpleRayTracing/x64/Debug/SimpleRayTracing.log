@@ -1,2 +1,118 @@
-﻿  SimpleRayTracing.cpp
+﻿  World.cpp
+  AmbientLight.cpp
+  AreaLight.cpp
+  PointLight.cpp
+  Disney.cpp
+  DisneyBRDF.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(29,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(29,25): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(29,25): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(29,25): warning C4244:             _Ty=double
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(29,25): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(30,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(32,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(33,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(37,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(38,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(39,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(41,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(42,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(43,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(67,17): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(67,17): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(67,17): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(67,17): warning C4244:             _Ty=double
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Material\DisneyBRDF.cpp(67,17): warning C4244:         ]
+  Emissive.cpp
+  Glossy.cpp
+  Matte.cpp
+  Specular.cpp
+  Matrix4.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(17,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(17,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(28,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(45,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(47,11): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(83,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Math\Matrix4.cpp(97,9): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Transform.cpp
+  Composite.cpp
+  Grid.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(119,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(120,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(121,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(125,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(126,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(127,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(274,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(280,50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(281,50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(282,50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(299,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(300,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(301,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(303,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(304,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Grid.cpp(305,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Plane.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Plane.cpp(17,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Rectangle.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Rectangle.cpp(52,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Sphere.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Sphere.cpp(43,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Sphere.cpp(44,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Sphere.cpp(45,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Sphere.cpp(64,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Sphere.cpp(66,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Triangle.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Triangle.cpp(32,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Triangle.cpp(38,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Triangle.cpp(40,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Triangle.cpp(47,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Triangle.cpp(54,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SimpleRayTracing.cpp
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(35,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(35,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(38,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(39,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(40,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(70,37): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(70,37): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(70,37): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(70,37): warning C4244:             _Ty=float
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(70,37): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(71,37): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(71,37): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(71,37): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(71,37): warning C4244:             _Ty=float
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(71,37): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(72,37): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(72,37): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(72,37): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(72,37): warning C4244:             _Ty=float
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(72,37): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(134,25): warning C4018: '<': signed/unsigned mismatch
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(135,74): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(135,74): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(135,74): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(135,74): warning C4244:             _Ty=unsigned char
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(135,74): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(136,74): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(136,74): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(136,74): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(136,74): warning C4244:             _Ty=unsigned char
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(136,74): warning C4244:         ]
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(137,74): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(137,74): warning C4244:         with
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(137,74): warning C4244:         [
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(137,74): warning C4244:             _Ty=unsigned char
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing.cpp(137,74): warning C4244:         ]
+  Camera.cpp
+  Generating Code...
+F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\SimpleRayTracing\Object\Rectangle.cpp(19,1): warning C4715: 'Rectangle::operator=': not all control paths return a value
+  Compiling...
+  EnvironmentTracer.cpp
+  RayTracer.cpp
+  Sampler.cpp
+  Generating Code...
   SimpleRayTracing.vcxproj -> F:\Programming\Projects\SimpleRayTracing\SimpleRayTracing\x64\Debug\SimpleRayTracing.exe
