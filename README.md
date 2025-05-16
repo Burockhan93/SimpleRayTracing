@@ -13,6 +13,7 @@
 - ✅ Create **simple and complex materials**, including custom BRDFs
 - ✅ Fully programmable **scene setup**
 - ✅ Perform **ray tracing** with recursive reflection/refraction
+- ✅ Uses **parallel programming** to render the image
 - ✅ **Save final renders** as PNG using [LodePNG](https://github.com/lvandeve/lodepng) (version `20190210`)
 - ✅ **Denoise output images** using [Intel OIDN](https://www.openimagedenoise.org/) (optional)
 - ✅ Uses **custom-built math library** (vectors, matrices, etc.)
