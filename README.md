@@ -19,7 +19,7 @@
 
 ---
 
-## 🖼 Example Output
+## 🖼 Example Outputs
 
 <p float = "left">
   <img src="SimpleRayTracing/SimpleRayTracing/Resources/Shrek_result.png" width="45%"/>
