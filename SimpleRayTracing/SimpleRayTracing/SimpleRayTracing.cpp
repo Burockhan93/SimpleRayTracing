@@ -137,7 +137,7 @@ int main()
 		image[i * 4 + 2] = pow(std::min(std::max(pixels[i].z, 0.0), 1.0), 1.0) * 255;
 		image[i * 4 + 3] = 255;
 	}
-	lodepng::encode("F:\\Programming\\Projects\\SimpleRayTracing\\SimpleRayTracing\\SimpleRayTracing\\Mathtestname.png", image, width, height);
+	lodepng::encode("F:\\Programming\\Projects\\SimpleRayTracing\\SimpleRayTracing\\SimpleRayTracing\\test33.png", image, width, height);
 
 }
 

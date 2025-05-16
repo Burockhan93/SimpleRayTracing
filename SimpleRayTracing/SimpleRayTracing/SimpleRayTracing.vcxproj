@@ -173,13 +173,13 @@
     <ClInclude Include="Light\AmbientLight.h" />
     <ClInclude Include="Light\AreaLight.h" />
     <ClInclude Include="Material\BRDF.h" />
+    <ClInclude Include="Material\Disney.h" />
     <ClInclude Include="Material\DisneyBRDF.h" />
     <ClInclude Include="Material\Glossy.h" />
     <ClInclude Include="Material\Lambertian.h" />
     <ClInclude Include="Light\Light.h" />
     <ClInclude Include="Light\PointLight.h" />
     <ClInclude Include="Material\Specular.h" />
-    <ClInclude Include="Material\Disney.h" />
     <ClInclude Include="Material\Emissive.h" />
     <ClInclude Include="Material\Material.h" />
     <ClInclude Include="Material\Matte.h" />
